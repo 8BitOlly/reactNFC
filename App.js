@@ -9,6 +9,7 @@ function App() {
     try {
       await NfcManager.requestTechnology(NfcTech.Ndef);
       const tag = await NfcManager.getTag();
+      console.log('big yikes');
       console.warn(
         'Tag found',
         Ndef.text.decodePayload(tag.ndefMessage[0].payload),
