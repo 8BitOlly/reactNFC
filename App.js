@@ -1,5 +1,5 @@
 import React from 'react';
-import {Text, TouchableOpacity, View, StyleSheet, State} from 'react-native';
+import {Text, TouchableOpacity, View, StyleSheet} from 'react-native';
 import NfcManager, {NfcTech, Ndef} from 'react-native-nfc-manager';
 
 NfcManager.start();
