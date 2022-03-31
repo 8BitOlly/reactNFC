@@ -22,8 +22,8 @@ function App() {
   }
   return (
     <View style={styles.wrapper}>
-      <TouchableOpacity onPress={readNdef}>
-        <Text>Scan a Tag</Text>
+      <TouchableOpacity style={styles.button} onPress={readNdef}>
+        <Text style={{color: 'white', fontSize: 15}}>READ</Text>
       </TouchableOpacity>
     </View>
   );
@@ -34,6 +34,13 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+  },
+  button: {
+    padding: 10,
+    width: 150,
+    alignItems: 'center',
+    backgroundColor: '#2196f3',
+    borderRadius: 3,
   },
 });
 
