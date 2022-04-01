@@ -9,68 +9,68 @@
 9        android:targetSdkVersion="30" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\debug\AndroidManifest.xml:5:5-77
-11-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\debug\AndroidManifest.xml:5:22-75
+11-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/debug/AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\main\AndroidManifest.xml:4:5-67
-12-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\main\AndroidManifest.xml:4:22-64
+12-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/main/AndroidManifest.xml:4:22-64
 13    <uses-permission android:name="android.permission.NFC" />
-13-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\main\AndroidManifest.xml:5:5-62
-13-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\main\AndroidManifest.xml:5:22-59
+13-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/main/AndroidManifest.xml:5:5-62
+13-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/main/AndroidManifest.xml:5:22-59
 14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-14-->[com.facebook.flipper:flipper:0.99.0] C:\Users\Oliver\.gradle\caches\transforms-3\df7b208c45426f45016d16c0c3a6a059\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:5-76
-14-->[com.facebook.flipper:flipper:0.99.0] C:\Users\Oliver\.gradle\caches\transforms-3\df7b208c45426f45016d16c0c3a6a059\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:22-73
+14-->[com.facebook.flipper:flipper:0.99.0] /Users/oliver/.gradle/caches/transforms-3/df7b208c45426f45016d16c0c3a6a059/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:5-76
+14-->[com.facebook.flipper:flipper:0.99.0] /Users/oliver/.gradle/caches/transforms-3/df7b208c45426f45016d16c0c3a6a059/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:22-73
 15
 16    <uses-feature
-16-->[:react-native-nfc-manager] C:\Users\Oliver\Documents\FinalYearProject\reactNFC\node_modules\react-native-nfc-manager\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-13:36
+16-->[:react-native-nfc-manager] /Users/oliver/Documents/Final Year Project/reactNFC/node_modules/react-native-nfc-manager/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-13:36
 17        android:name="android.hardware.nfc"
-17-->[:react-native-nfc-manager] C:\Users\Oliver\Documents\FinalYearProject\reactNFC\node_modules\react-native-nfc-manager\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-44
+17-->[:react-native-nfc-manager] /Users/oliver/Documents/Final Year Project/reactNFC/node_modules/react-native-nfc-manager/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-44
 18        android:required="false" />
-18-->[:react-native-nfc-manager] C:\Users\Oliver\Documents\FinalYearProject\reactNFC\node_modules\react-native-nfc-manager\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-33
+18-->[:react-native-nfc-manager] /Users/oliver/Documents/Final Year Project/reactNFC/node_modules/react-native-nfc-manager/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-33
 19
 20    <application
-20-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\main\AndroidManifest.xml:7:5-25:19
+20-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/main/AndroidManifest.xml:7:5-25:19
 21        android:name="com.reactnfc.MainApplication"
-21-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\main\AndroidManifest.xml:8:7-38
+21-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/main/AndroidManifest.xml:8:7-38
 22        android:allowBackup="false"
-22-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\main\AndroidManifest.xml:12:7-34
+22-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/main/AndroidManifest.xml:12:7-34
 23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-23-->[androidx.core:core:1.5.0] C:\Users\Oliver\.gradle\caches\transforms-3\540dbfb90b248d7b59cd154497c15f99\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+23-->[androidx.core:core:1.5.0] /Users/oliver/.gradle/caches/transforms-3/540dbfb90b248d7b59cd154497c15f99/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
 24        android:debuggable="true"
 25        android:icon="@mipmap/ic_launcher"
-25-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\main\AndroidManifest.xml:10:7-41
+25-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/main/AndroidManifest.xml:10:7-41
 26        android:label="@string/app_name"
-26-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\main\AndroidManifest.xml:9:7-39
+26-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/main/AndroidManifest.xml:9:7-39
 27        android:roundIcon="@mipmap/ic_launcher_round"
-27-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\main\AndroidManifest.xml:11:7-52
+27-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/main/AndroidManifest.xml:11:7-52
 28        android:theme="@style/AppTheme"
-28-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\main\AndroidManifest.xml:13:7-38
+28-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/main/AndroidManifest.xml:13:7-38
 29        android:usesCleartextTraffic="true" >
-29-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\debug\AndroidManifest.xml:8:9-44
+29-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/debug/AndroidManifest.xml:8:9-44
 30        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-30-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\debug\AndroidManifest.xml:11:9-86
-30-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\debug\AndroidManifest.xml:11:19-83
+30-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/debug/AndroidManifest.xml:11:9-86
+30-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/debug/AndroidManifest.xml:11:19-83
 31        <activity
-31-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\main\AndroidManifest.xml:14:7-24:18
+31-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/main/AndroidManifest.xml:14:7-24:18
 32            android:name="com.reactnfc.MainActivity"
-32-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\main\AndroidManifest.xml:15:9-37
+32-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/main/AndroidManifest.xml:15:9-37
 33            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-33-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\main\AndroidManifest.xml:17:9-86
+33-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/main/AndroidManifest.xml:17:9-86
 34            android:label="@string/app_name"
-34-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\main\AndroidManifest.xml:16:9-41
+34-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/main/AndroidManifest.xml:16:9-41
 35            android:launchMode="singleTask"
-35-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\main\AndroidManifest.xml:18:9-40
+35-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/main/AndroidManifest.xml:18:9-40
 36            android:windowSoftInputMode="adjustResize" >
-36-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\main\AndroidManifest.xml:19:9-51
+36-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/main/AndroidManifest.xml:19:9-51
 37            <intent-filter>
-37-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\main\AndroidManifest.xml:20:9-23:25
+37-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/main/AndroidManifest.xml:20:9-23:25
 38                <action android:name="android.intent.action.MAIN" />
-38-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\main\AndroidManifest.xml:21:13-65
-38-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\main\AndroidManifest.xml:21:21-62
+38-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/main/AndroidManifest.xml:21:13-65
+38-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/main/AndroidManifest.xml:21:21-62
 39
 40                <category android:name="android.intent.category.LAUNCHER" />
-40-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\main\AndroidManifest.xml:22:13-73
-40-->C:\Users\Oliver\Documents\FinalYearProject\reactNFC\android\app\src\main\AndroidManifest.xml:22:23-70
+40-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/main/AndroidManifest.xml:22:13-73
+40-->/Users/oliver/Documents/Final Year Project/reactNFC/android/app/src/main/AndroidManifest.xml:22:23-70
 41            </intent-filter>
 42        </activity>
 43    </application>
