@@ -15,6 +15,7 @@ function App() {
         Ndef.text.decodePayload(tag.ndefMessage[0].payload),
       );
     } catch (ex) {
+      console.log('Yikes');
       console.warn('Oops!', ex);
     } finally {
       await NfcManager.cancelTechnologyRequest();
