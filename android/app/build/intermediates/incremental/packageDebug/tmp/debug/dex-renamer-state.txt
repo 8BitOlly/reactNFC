@@ -1,14 +1,14 @@
-#Fri Apr 01 02:12:54 BST 2022
+#Sun Apr 03 21:06:20 BST 2022
 path.4=14/classes.dex
 path.3=11/classes.dex
 path.2=0/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
-base.4=/Users/oliver/Documents/Final Year Project/reactNFC/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
-base.3=/Users/oliver/Documents/Final Year Project/reactNFC/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex
-base.2=/Users/oliver/Documents/Final Year Project/reactNFC/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.1=/Users/oliver/Documents/Final Year Project/reactNFC/android/app/build/intermediates/dex/debug/mergeLibDexDebug/0/classes.dex
-base.0=/Users/oliver/Documents/Final Year Project/reactNFC/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.4=C\:\\Users\\Oliver\\Documents\\FinalYearProject\\reactNFC\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.3=C\:\\Users\\Oliver\\Documents\\FinalYearProject\\reactNFC\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.2=C\:\\Users\\Oliver\\Documents\\FinalYearProject\\reactNFC\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.1=C\:\\Users\\Oliver\\Documents\\FinalYearProject\\reactNFC\\android\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
+base.0=C\:\\Users\\Oliver\\Documents\\FinalYearProject\\reactNFC\\android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex

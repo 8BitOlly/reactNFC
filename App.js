@@ -1,40 +1,56 @@
-import React from 'react';
-import {Text, TouchableOpacity, View, StyleSheet, TextInput} from 'react-native';
+import React, {useState} from 'react';
+import {Text, TouchableOpacity, View, StyleSheet, TextInput, Alert} from 'react-native';
 import NfcManager, {NfcTech, Ndef} from 'react-native-nfc-manager';
 
 NfcManager.start();
 
 function App() {
+  const [input, setInput] = useState('');
+
   async function readNdef() {
     try {
       await NfcManager.requestTechnology(NfcTech.Ndef);
       const tag = await NfcManager.getTag();
-      console.warn(
+      console.log(
         'Tag found',
         Ndef.text.decodePayload(tag.ndefMessage[0].payload),
       );
+      
+      Alert.alert(
+        'Tag found',
+         Ndef.text.decodePayload(tag.ndefMessage[0].payload),
+        [
+          {
+            text: 'Cancel',
+            onPress: () => console.log('Cancel Pressed'),
+            style: 'cancel'
+          },
+          {text: 'Ok', onPress: () => console.log('Ok Pressed')}
+        ]
+      );
+
     } catch (ex) {
-      console.warn('Oops!', ex);
+      console.log('Oops!', ex);
     } finally {
       await NfcManager.cancelTechnologyRequest();
     }
   }
 
-  async function writeNdef({type, value}) { 
+  async function writeNdef() { 
     let result = false;
 
     try {
       await NfcManager.requestTechnology(NfcTech.Ndef);
 
-      console.log(userInput);
-      const bytes = Ndef.encodeMessage([Ndef.textRecord('lol')]);
+      const bytes = Ndef.encodeMessage([Ndef.textRecord({input}.input)]);
 
       if (bytes) {
         await NfcManager.ndefHandler.writeNdefMessage(bytes);
+        console.log('Wrote' + {input}.input)
         result = true;
       }
     } catch (ex) {
-      console.warn(ex);
+      console.log(ex);
     } finally {
       NfcManager.cancelTechnologyRequest();
     }
@@ -53,8 +69,8 @@ function App() {
           <Text style={{color: 'white', fontSize: 15}}>WRITE</Text>
         </TouchableOpacity>
       </View>
-      <TextInput style={styles.input} placeholder="Input text"/>
-      <Text>{text}</Text>
+      <TextInput style={styles.input} placeholder="Input text" onChangeText={text => setInput(text)}/>
+      <Text>Input: {input}</Text>
     </View>
   );
 }
